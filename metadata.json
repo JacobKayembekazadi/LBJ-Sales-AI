@@ -1,0 +1,7 @@
+{
+  "name": "LBJ-Sales-AI",
+  "description": "Premium AI Sales & Lead Intelligence system for high-end landscape architecture firms.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

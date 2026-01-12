@@ -4,7 +4,7 @@ import ChatInterface from './components/ChatInterface';
 import BriefView from './components/BriefView';
 import DeliverableView from './components/DeliverableView';
 import { ChatMessage, SalesBrief, FileData, ActionDocument } from './types';
-import { SalesAIService } from './services/geminiService';
+import { SalesAIService } from './services/openaiService';
 import { Icons } from './constants';
 
 const App: React.FC = () => {

@@ -1,6 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Inter', sans-serif;
+  --color-brand-forest: #1B3022;
+  --color-brand-sage: #7C9082;
+  --color-brand-stone: #E5E1D8;
+  --color-brand-gold: #BFA181;
+  --color-brand-charcoal: #2C2C2C;
+}
 
 body {
   background-color: #F9F8F6;

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F9F8F6;
+  color: #2C2C2C;
+}
+
+.premium-shadow {
+  box-shadow: 0 10px 30px -10px rgba(27, 48, 34, 0.15);
+}
+
+.brief-border {
+  border-left: 4px solid #BFA181;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7C9082;
+  border-radius: 10px;
+}
